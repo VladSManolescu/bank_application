@@ -5,6 +5,7 @@ def remove_user(user_to_be_deleted: str, bank_path: str = "bank.json", auth_path
 
     # here I need to change to make this more eficient
     # necesita modificari
+    # necesita modificari 2
     with open(bank_path, "r") as f:
         accounts = json.loads(f.read())
 
